@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forum_select_class"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"/>
+
+        <FrameLayout
+            android:id="@+id/flMailbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+            <ImageButton
+                android:id="@+id/btnMailbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_dialog_email"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/beihang_blue"/>
+
+            <TextView
+                android:id="@+id/tvUnreadCount"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/bg_badge_red"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:layout_gravity="top|end"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnPublicForum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入公共讨论区"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/beihang_blue"
+        android:textColor="@color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvClasses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

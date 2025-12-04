@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BeihangAgent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/beihang_blue</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Apply custom Dialog Theme -->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Beihang.MaterialAlertDialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.Beihang.MaterialAlertDialog</item>
+    </style>
+
+    <!-- Custom Dialog Theme -->
+    <style name="ThemeOverlay.Beihang.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Beihang.Dialog</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Beihang.Button.TextButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.Beihang.Button.TextButton</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ShapeAppearance.Beihang.Dialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.Beihang.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/beihang_blue</item>
+    </style>
+
+    <!-- Transparent launch theme to remove splash screen -->
+    <style name="Theme.BeihangAgent.Launcher" parent="Theme.BeihangAgent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+    <style name="Theme.BeihangAgent" parent="Base.Theme.BeihangAgent" />
+</resources>

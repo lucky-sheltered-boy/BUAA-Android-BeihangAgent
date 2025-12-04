@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">北航智教助手</string>
+    <string name="chat_mode_label">对话模式</string>
+    <string name="chat_model_label">推理模型</string>
+    <string name="chat_style_label">对话风格</string>
+    <string name="chat_input_hint">请在此输入问题</string>
+    <string name="chat_send">发送</string>
+    <string name="chat_input_empty">请输入问题内容</string>
+    <string name="chat_using_model">即将使用 %1$s 模型</string>
+    <string name="chat_copy_answer_desc">复制 AI 回答</string>
+    <string name="chat_copy_code_desc">复制代码片段</string>
+    <string name="chat_copy_question_desc">复制我的提问</string>
+    <string name="chat_copy_label_answer">回答</string>
+    <string name="chat_copy_label_code">代码</string>
+    <string name="chat_copy_label_question">问题</string>
+    <string name="chat_copy_success">%1$s 已复制到剪贴板</string>
+    
+    <!-- 个性化功能相关 -->
+    <string name="personalization_learning">🤖 学习中</string>
+    <string name="personalization_adapting">🌱 适应中</string>
+    <string name="personalization_personalized">✨ 个性化</string>
+    <string name="personalization_intelligent">🏆 智能化</string>
+    <string name="personalization_tip_beginner">💡 我正在了解您的学习风格，请继续提问</string>
+    <string name="personalization_tip_adapting">💡 我正在适应您的学习节奏，已分析了您的偏好</string>
+    <string name="personalization_tip_personalized">💡 我已为您定制学习方案，回答将更符合您的风格</string>
+    <string name="personalization_tip_intelligent">💡 我深度理解您的学习模式，可提供精准指导</string>
+    <string name="login_title">北航智教助手登录</string>
+    <string name="register_title">注册北航账号</string>
+    <string name="login_username">学工号 / 邮箱</string>
+    <string name="login_password">密码</string>
+    <string name="login_remember_me">保持登录状态</string>
+    <string name="login_action">立即登录</string>
+    <string name="login_to_register">没有账号？点击注册</string>
+    <string name="register_role">请选择身份</string>
+    <string name="register_action">提交注册</string>
+    <string name="action_logout">退出登录</string>
+    <string name="action_back">返回</string>
+    <string name="action_finish">返回登录页</string>
+    <string name="analysis_title">教学统计</string>
+    <string name="analysis_empty">暂无提问数据，快去和智能体互动吧</string>
+    <string name="analysis_hot_title">近期热点与难点</string>
+    <string name="analysis_hot_desc">以下来自最近 50 条学生提问，帮助老师快速获知集中问题</string>
+    <string name="analysis_hot_empty">暂时没有热点问题</string>
+    <string name="analysis_hot_badge_error">高频错误</string>
+    <string name="analysis_hot_badge_topic">热门主题</string>
+    <string name="analysis_hot_frequency">出现 %1$d 次</string>
+    <string name="analysis_hot_recent">最近：%1$s</string>
+    
+    <!-- Class Management -->
+    <string name="class_manage_title">班级管理</string>
+    <string name="class_create_title">创建班级</string>
+    <string name="class_join_title">加入班级</string>
+    <string name="class_name_hint">班级名称</string>
+    <string name="class_code_hint">班级邀请码</string>
+    <string name="class_create_action">创建班级</string>
+    <string name="class_join_action">加入班级</string>
+    <string name="class_empty_teacher">暂无班级，点击下方按钮创建班级</string>
+    <string name="class_empty_student">暂未加入班级，输入邀请码加入班级</string>
+    <string name="class_code_label">邀请码: %1$s</string>
+    <string name="class_member_count">学生人数: %1$d</string>
+    <string name="class_role_admin">管理员</string>
+    <string name="class_create_success">班级创建成功！邀请码: %1$s</string>
+    <string name="class_join_success">加入班级成功！</string>
+    <string name="class_already_joined">您已在该班级中</string>
+    <string name="class_not_exist">班级不存在，请检查邀请码</string>
+    <string name="class_delete_confirm">确定要删除班级\"%1$s\"吗？这将移除所有班级成员。</string>
+    <string name="class_leave_confirm">确定要退出班级\"%1$s\"吗？</string>
+    <string name="class_deleted">班级已删除</string>
+    <string name="class_left">已退出班级</string>
+    <string name="class_view_members">查看成员</string>
+    <string name="class_edit">编辑班级</string>
+    <string name="class_delete">删除班级</string>
+    <string name="class_leave">退出班级</string>
+    <string name="analysis_class_all">全部班级</string>
+    <string name="analysis_class_select">选择班级</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_chat">智能对话</string>
+    <string name="nav_analysis">教学统计</string>
+    <string name="nav_profile">个人中心</string>
+    <string name="nav_forum">讨论区</string>
+    
+    <!-- Profile Settings -->
+    <string name="profile_major_not_set">学院未设置</string>
+    <string name="profile_name_not_set">姓名未设置</string>
+    
+    <!-- College List (按北航官方系号顺序) -->
+    <string-array name="college_list">
+        <item>材料科学与工程学院</item>
+        <item>电子信息工程学院</item>
+        <item>自动化科学与电气工程学院</item>
+        <item>能源与动力工程学院</item>
+        <item>航空科学与工程学院</item>
+        <item>计算机学院</item>
+        <item>机械工程及自动化学院</item>
+        <item>经济管理学院</item>
+        <item>数学科学学院</item>
+        <item>生物与医学工程学院</item>
+        <item>人文社会科学学院</item>
+        <item>外国语学院</item>
+        <item>交通科学与工程学院</item>
+        <item>可靠性与系统工程学院</item>
+        <item>宇航学院</item>
+        <item>飞行学院</item>
+        <item>仪器科学与光电工程学院</item>
+        <item>北京学院</item>
+        <item>物理学院</item>
+        <item>法学院</item>
+        <item>软件学院</item>
+        <item>继续教育学院</item>
+        <item>沈元学院</item>
+        <item>中法工程师学院/国际通用工程学院</item>
+        <item>国际学院</item>
+        <item>新媒体艺术与设计学院</item>
+        <item>化学学院</item>
+        <item>马克思主义学院</item>
+        <item>人文与社会科学高等研究院</item>
+        <item>空间与地球科学学院</item>
+        <item>无人系统研究院</item>
+        <item>航空发动机研究院</item>
+        <item>体育部</item>
+        <item>国际前沿交叉科学研究院</item>
+        <item>北航学院</item>
+        <item>网络空间安全学院</item>
+        <item>集成电路科学与工程学院</item>
+        <item>人工智能学院（人工智能研究院）</item>
+        <item>医学科学与工程学院/医工交叉创新研究院</item>
+        <item>大科学装置研究院</item>
+        <item>杭州国际校园</item>
+        <item>传源书院</item>
+        <item>士谔书院</item>
+        <item>冯如书院</item>
+        <item>士嘉书院</item>
+        <item>守锷书院</item>
+        <item>致真书院</item>
+        <item>知行书院</item>
+    </string-array>
+    
+    <!-- Forum Feature -->
+    <string name="forum_title">班级讨论区</string>
+    <string name="forum_select_class">选择班级进入讨论区</string>
+    <string name="forum_post_create">发布帖子</string>
+    <string name="forum_post_title_hint">标题</string>
+    <string name="forum_post_content_hint">内容</string>
+    <string name="forum_post_publish">发布</string>
+    <string name="forum_comment_hint">写下你的评论...</string>
+    <string name="forum_comment_send">发送</string>
+    <string name="forum_like">点赞</string>
+    <string name="forum_delete">删除</string>
+    <string name="forum_pin">置顶</string>
+    <string name="forum_unpin">取消置顶</string>
+    <string name="forum_pinned_label">【置顶】</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_view_members"
+        android:title="查看成员" />
+    <item
+        android:id="@+id/action_go_to_forum"
+        android:title="前往讨论区" />
+    <item
+        android:id="@+id/action_delete_class"
+        android:title="删除班级" />
+    <item
+        android:id="@+id/action_leave_class"
+        android:title="退出班级" />
+</menu>

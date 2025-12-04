@@ -1,0 +1,13 @@
+## This file is a template for local.properties
+## Copy this file to local.properties and fill in your values
+
+# Android SDK location (Update this path to your local SDK installation)
+# sdk.dir=C\:\\Users\\YourUser\\AppData\\Local\\Android\\Sdk
+
+# AI API Configuration
+# Replace with your actual API Key
+ai.api.key=sk-your-api-key-here
+
+# Replace with your API Base URL if different
+# Default is https://api.openai.com/ if not specified, or the value in build.gradle.kts
+ai.api.baseUrl=https://api.openai.com/

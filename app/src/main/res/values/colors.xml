@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="beihang_blue">#005193</color>
+    <color name="beihang_blue_light">#E3F2FD</color>
+    <color name="beihang_blue_dark">#003D6E</color>
+    <color name="colorPrimary">@color/beihang_blue</color>
+    <color name="colorPrimaryVariant">#003D6E</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="code_block_bg">#F5F5F5</color>
+    <color name="code_block_text">#263238</color>
+    <color name="chat_background">#F5F7FA</color>
+    <color name="user_bubble_bg">#BBDEFB</color>
+    <color name="ai_bubble_bg">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="inline_code_bg">#E8F5E8</color>
+    <!-- 代码高亮颜色 -->
+    <color name="code_keyword">#FF8C00</color>
+    <color name="code_string">#32CD32</color>
+    <color name="code_comment">#808080</color>
+    <color name="code_number">#0000FF</color>
+</resources>
